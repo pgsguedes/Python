@@ -15,7 +15,7 @@ def enviar_email():
         msg['Subject'] = "Assunto do email"
         msg['From']    = 'pgsguedes@gmail.com'
         msg['To']      = cliente['email']
-        password = 'vcwfjljmnrwzoqxo'
+        password = 'sua senha app do gmail '
         msg.add_header('Content-Type', 'text/html')
         msg.set_payload(corpo_email)
         # anexar arquivos ou imagem
